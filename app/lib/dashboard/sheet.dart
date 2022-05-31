@@ -8,7 +8,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("flutter App"),
+        title: Text(" Messages"),
+        backgroundColor: Colors.yellow,
+        leading: CircleAvatar(
+          backgroundColor: Colors.black,
+          radius: 40,
+        ),
+      
       ),
       body: 
          Column(
